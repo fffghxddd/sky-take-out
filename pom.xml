@@ -19,6 +19,7 @@
     </modules>
     <properties>
         <mybatis.spring>2.2.0</mybatis.spring>
+        <mybatis-plus>3.5.7</mybatis-plus>
         <lombok>1.18.20</lombok>
         <fastjson>1.2.76</fastjson>
         <commons.lang>2.6</commons.lang>
@@ -31,6 +32,9 @@
         <jaxb-api>2.3.1</jaxb-api>
         <poi>3.16</poi>
     </properties>
+
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -122,6 +126,10 @@
                 <artifactId>wechatpay-apache-httpclient</artifactId>
                 <version>0.4.8</version>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
+
 </project>
